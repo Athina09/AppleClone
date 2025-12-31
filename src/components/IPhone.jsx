@@ -1,7 +1,7 @@
 import { useGLTF } from "@react-three/drei";
 import { useMemo } from "react";
 
-function IPhone({ item, size, ...props }) {
+function IPhone(props) {
   const { scene } = useGLTF("/models/scene.glb");
   
   // Clone the scene to avoid reuse issues
