@@ -1,4 +1,5 @@
 import { appleImg, searchImg, bagImg } from '../utils';
+import { navLists } from '../constants';
 
 const navLinks = ['Store', 'Mac', 'iPad', 'iPhone', 'Watch', 'AirPods', 'Support'];
 
